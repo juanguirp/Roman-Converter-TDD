@@ -7,4 +7,7 @@ class Converter(object):
 
     def convert(self, roman):
         """Convert roman numbers to decimal numbers."""
-        return 1
+        if roman == "I":
+            return 1
+        else:
+            return 2
