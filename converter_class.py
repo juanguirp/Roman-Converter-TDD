@@ -10,13 +10,13 @@ class Converter(object):
         """Convert roman numbers to decimal numbers."""
         self.bufferedRoman = roman
         convertedNumber = 0
-        maximum = self.getMaximumDigit()
+        maximum = self.getMaximumNumeral()
         while maximum:
             convertedNumber += maximum
-            maximum = self.getMaximumDigit()
+            maximum = self.getMaximumNumeral()
         return convertedNumber
 
-    def getMaximumDigit(self):
+    def getMaximumNumeral(self):
         """Return maximum digit in a roman number."""
         if not self.bufferedRoman:
             return 0
