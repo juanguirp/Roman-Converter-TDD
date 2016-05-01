@@ -1,4 +1,4 @@
-# Conversor: Números Romanos a números Decimales
+# Converter: Números Romanos a números Decimales
 Actividad para practicar los conceptos vistos de TDD en el curso de **Desarrollo de Aplicaciones empresariales**
 
 ### Tabla de equivalencias

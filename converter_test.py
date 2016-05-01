@@ -1,11 +1,11 @@
-"""Unit test for conversor.py."""
+"""Unit test for converter_class.py."""
 
 import unittest
 from converter_class import Converter
 
 
-class ConversorTest(unittest.TestCase):
-    """Class ConversorTest."""
+class ConverterTest(unittest.TestCase):
+    """Class ConverterTest."""
 
     def setUp(self):
         """Arrange context."""
