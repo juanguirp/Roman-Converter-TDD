@@ -4,7 +4,7 @@ class Converter(object):
     def __init__(self):
         """Constructor for class Converter."""
         self.bufferedRoman = str()
-        self.romanNumerals = [("IV", 4), ("V", 5), ("I", 1)]
+        self.romanNumerals = [("IX", 9), ("IV", 4), ("V", 5), ("I", 1)]
 
     def convert(self, roman):
         """Convert roman numbers to decimal numbers."""
