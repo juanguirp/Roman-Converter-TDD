@@ -92,6 +92,36 @@ class ConversorTest(unittest.TestCase):
         self.decimal = self.converter.convert("M")
         self.assertEquals(self.decimal, 1000)
 
+    def test_get_48(self):
+        """Test case #17: Convert XLVIII to decimal 48."""
+        self.decimal = self.converter.convert("XLVIII")
+        self.assertEquals(self.decimal, 48)
+
+    def test_get_67(self):
+        """Test case #18: Convert LXVII to decimal 67."""
+        self.decimal = self.converter.convert("LXVII")
+        self.assertEquals(self.decimal, 67)
+
+    def test_get_99(self):
+        """Test case #19: Convert XCIX to decimal 99."""
+        self.decimal = self.converter.convert("XCIX")
+        self.assertEquals(self.decimal, 99)
+
+    def test_get_449(self):
+        """Test case #20: Convert CDXLIX to decimal 449."""
+        self.decimal = self.converter.convert("CDXLIX")
+        self.assertEquals(self.decimal, 449)
+
+    def test_get_459(self):
+        """Test case #21: Convert CDLIX to decimal 459."""
+        self.decimal = self.converter.convert("CDLIX")
+        self.assertEquals(self.decimal, 459)
+
+    def test_get_944(self):
+        """Test case #22: Convert CMXLIV to decimal 944."""
+        self.decimal = self.converter.convert("CMXLIV")
+        self.assertEquals(self.decimal, 944)
+
     def tearDown(self):
         """Destroy context."""
         del(self.converter)
