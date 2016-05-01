@@ -6,7 +6,8 @@ class Converter(object):
         self.romans = {
             "I": 1,
             "II": 2,
-            "III": 3
+            "III": 3,
+            "IV": 4
         }
 
     def convert(self, roman):
