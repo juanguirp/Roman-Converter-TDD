@@ -3,11 +3,12 @@ class Converter(object):
 
     def __init__(self):
         """Constructor for class Converter."""
-        pass
+        self.romans = {
+            "I": 1,
+            "II": 2,
+            "III": 3
+        }
 
     def convert(self, roman):
         """Convert roman numbers to decimal numbers."""
-        if roman == "I":
-            return 1
-        else:
-            return 2
+        return self.romans[roman]
