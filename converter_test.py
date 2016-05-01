@@ -32,6 +32,11 @@ class ConversorTest(unittest.TestCase):
         self.decimal = self.converter.convert("IV")
         self.assertEquals(self.decimal, 4)
 
+    def test_get_five(self):
+        """Test case for number V."""
+        self.decimal = self.converter.convert("V")
+        self.assertEquals(self.decimal, 5)
+
     def tearDown(self):
         """Destroy context."""
         del(self.converter)
