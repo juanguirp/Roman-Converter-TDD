@@ -13,82 +13,82 @@ class ConversorTest(unittest.TestCase):
         self.decimal = 0
 
     def test_get_one(self):
-        """Test case for number I."""
+        """Test case #1: Convert I to decimal 1."""
         self.decimal = self.converter.convert("I")
         self.assertEquals(self.decimal, 1)
 
     def test_get_two(self):
-        """Test case for number II."""
+        """Test case #2: Convert II to decimal 2."""
         self.decimal = self.converter.convert("II")
         self.assertEquals(self.decimal, 2)
 
     def test_get_three(self):
-        """Test case for number III."""
+        """Test case #3: Convert III to decimal 3."""
         self.decimal = self.converter.convert("III")
         self.assertEquals(self.decimal, 3)
 
     def test_get_four(self):
-        """Test case for number IV."""
+        """Test case #4: Convert IV to decimal 4."""
         self.decimal = self.converter.convert("IV")
         self.assertEquals(self.decimal, 4)
 
     def test_get_five(self):
-        """Test case for number V."""
+        """Test case #5: Convert V to decimal 5."""
         self.decimal = self.converter.convert("V")
         self.assertEquals(self.decimal, 5)
 
     def test_get_six(self):
-        """Test case for number VI."""
+        """Test case #6: Convert VI to decimal 6."""
         self.decimal = self.converter.convert("VI")
         self.assertEquals(self.decimal, 6)
 
     def test_get_nine(self):
-        """Test case for number IX."""
+        """Test case #7: Convert IX to decimal 9."""
         self.decimal = self.converter.convert("IX")
         self.assertEquals(self.decimal, 9)
 
     def test_get_ten(self):
-        """Test case for number X."""
+        """Test case #8: Convert X to decimal 10."""
         self.decimal = self.converter.convert("X")
         self.assertEquals(self.decimal, 10)
 
     def test_get_forty(self):
-        """Test case for number XL."""
+        """Test case #9: Convert XL to decimal 40."""
         self.decimal = self.converter.convert("XL")
         self.assertEquals(self.decimal, 40)
 
     def test_get_fifty(self):
-        """Test case for number L."""
+        """Test case #10: Convert L to decimal 50."""
         self.decimal = self.converter.convert("L")
         self.assertEquals(self.decimal, 50)
 
     def test_get_ninety(self):
-        """Test case for number XC."""
+        """Test case #11: Convert XC to decimal 90."""
         self.decimal = self.converter.convert("XC")
         self.assertEquals(self.decimal, 90)
 
     def test_get_one_hundred(self):
-        """Test case for number C."""
+        """Test case #12: Convert C to decimal 100."""
         self.decimal = self.converter.convert("C")
         self.assertEquals(self.decimal, 100)
 
     def test_get_four_hundred(self):
-        """Test case for number CD."""
+        """Test case #13: Convert CD to decimal 400."""
         self.decimal = self.converter.convert("CD")
         self.assertEquals(self.decimal, 400)
 
     def test_get_five_hundred(self):
-        """Test case for number D."""
+        """Test case #14: Convert D to decimal 500."""
         self.decimal = self.converter.convert("D")
         self.assertEquals(self.decimal, 500)
 
     def test_get_nine_hundred(self):
-        """Test case for number CM."""
+        """Test case #15: Convert CM to decimal 900."""
         self.decimal = self.converter.convert("CM")
         self.assertEquals(self.decimal, 900)
 
     def test_get_one_thousand(self):
-        """Test case for number M."""
+        """Test case #16: Convert M to decimal 1000."""
         self.decimal = self.converter.convert("M")
         self.assertEquals(self.decimal, 1000)
 
