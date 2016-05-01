@@ -11,9 +11,11 @@ class Converter(object):
         self.bufferedRoman = roman
         convertedNumber = 0
         maximum = self.getMaximumNumeral()
+
         while maximum:
             convertedNumber += maximum
             maximum = self.getMaximumNumeral()
+
         return convertedNumber
 
     def getMaximumNumeral(self):
